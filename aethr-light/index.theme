@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=AETHR Light
+Comment=Brutalist black and white theme - Light variant
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=aethr-light
+MetacityTheme=aethr-light
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=close,minimize,maximize:menu

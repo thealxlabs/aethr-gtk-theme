@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<metacity_theme>
+  <info>
+    <name>AETHR Light</name>
+    <author>Alexander Wondwossen</author>
+    <copyright>2026</copyright>
+    <date>2026</date>
+    <description>Brutalist black and white theme - Light variant</description>
+  </info>
+
+  <frame_geometry name="normal" rounded_top_left="false" rounded_top_right="false">
+    <distance name="left_width" value="2"/>
+    <distance name="right_width" value="2"/>
+    <distance name="bottom_height" value="2"/>
+    <distance name="left_titlebar_edge" value="4"/>
+    <distance name="right_titlebar_edge" value="4"/>
+    <distance name="title_vertical_pad" value="8"/>
+    <border name="title_border" left="0" right="0" top="0" bottom="2"/>
+    <border name="button_border" left="2" right="2" top="2" bottom="2"/>
+  </frame_geometry>
+
+  <draw_ops name="title_focused">
+    <rectangle color="#ffffff" filled="true" x="0" y="0" width="width" height="height"/>
+    <rectangle color="#000000" filled="false" x="0" y="0" width="width-1" height="height-1"/>
+    <title color="#000000" x="8" y="((height - title_height) / 2)"/>
+  </draw_ops>
+
+  <draw_ops name="title_unfocused">
+    <rectangle color="#ffffff" filled="true" x="0" y="0" width="width" height="height"/>
+    <rectangle color="#999999" filled="false" x="0" y="0" width="width-1" height="height-1"/>
+    <title color="#999999" x="8" y="((height - title_height) / 2)"/>
+  </draw_ops>
+
+  <frame_style name="normal_focused" geometry="normal">
+    <piece position="entire_background" draw_ops="title_focused"/>
+  </frame_style>
+
+  <frame_style name="normal_unfocused" geometry="normal">
+    <piece position="entire_background" draw_ops="title_unfocused"/>
+  </frame_style>
+
+  <frame_style_set name="normal">
+    <frame focus="yes" state="normal" style="normal_focused"/>
+    <frame focus="no" state="normal" style="normal_unfocused"/>
+  </frame_style_set>
+
+  <window type="normal" style_set="normal"/>
+</metacity_theme>

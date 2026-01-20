@@ -1,0 +1,164 @@
+/* AETHR Dark Theme - GTK 3.0 */
+
+/* Color definitions MUST be first */
+@define-color theme_bg_color #000000;
+@define-color theme_fg_color #ffffff;
+@define-color theme_base_color #000000;
+@define-color theme_text_color #ffffff;
+@define-color theme_selected_bg_color #ffffff;
+@define-color theme_selected_fg_color #000000;
+@define-color insensitive_bg_color #1a1a1a;
+@define-color insensitive_fg_color #666666;
+@define-color borders #ffffff;
+
+/* Windows */
+window {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Headers/Titlebars */
+headerbar {
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  min-height: 42px;
+  padding: 0 8px;
+}
+
+headerbar button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 6px 12px;
+  margin: 4px;
+  min-height: 24px;
+}
+
+headerbar button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Buttons */
+button {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 8px 16px;
+  margin: 2px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button:active,
+button:checked {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Text inputs */
+entry {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 8px 12px;
+  min-height: 32px;
+}
+
+entry:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Scrollbars */
+scrollbar {
+  background-color: #000000;
+}
+
+scrollbar slider {
+  background-color: #ffffff;
+  min-width: 12px;
+  min-height: 12px;
+}
+
+/* Menus */
+menu {
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  padding: 4px;
+}
+
+menuitem {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 8px 12px;
+}
+
+menuitem:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Checkboxes */
+check {
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+check:checked {
+  background-color: #ffffff;
+}
+
+/* Switches */
+switch {
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  min-width: 48px;
+  min-height: 24px;
+}
+
+switch:checked {
+  background-color: #ffffff;
+}
+
+/* Tabs */
+notebook tab {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 8px 16px;
+}
+
+notebook tab:checked {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Lists */
+list {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+list row:selected {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Separators */
+separator {
+  background-color: #ffffff;
+  min-width: 1px;
+  min-height: 1px;
+}
