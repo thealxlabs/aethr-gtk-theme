@@ -1,45 +1,138 @@
-# AETHR GTK Theme
+# AETHR 🖤🤍
 
-A Minimalist black and white GTK theme for Linux.
+A pure black and white GTK theme for Linux.
 
-## Installation
+- **Pure Black & White** - No grays, no colors, just contrast
+- **Sharp Edges** - Zero border radius, pure geometry
+- **High Contrast** - Maximum readability
+- **Dual Variants** - Dark and light modes
+- **GTK 3/4** - Modern application support
+- **Zero Bloat** - Minimal, functional, fast
+
+## 🚀 Quick Install
 ```bash
+git clone https://github.com/alxgraphy/aethr-gtk-theme.git
+cd aethr-gtk-theme
 ./install.sh
 ```
 
-Or manually:
+**That's it.** Theme installed to `~/.themes/`
+
+## 🎨 Apply Theme
+
+**GNOME Tweaks (GUI):**
+```bash
+sudo apt install gnome-tweaks
+```
+1. Open Tweaks → Appearance
+2. Select `aethr-dark` or `aethr-light`
+
+**Command Line:**
+```bash
+# Dark mode
+gsettings set org.gnome.desktop.interface gtk-theme 'aethr-dark'
+
+# Light mode  
+gsettings set org.gnome.desktop.interface gtk-theme 'aethr-light'
+```
+
+## 📦 What Gets Themed
+
+✅ Window decorations  
+✅ Buttons, inputs, forms  
+✅ Menus and popovers  
+✅ Scrollbars  
+✅ Checkboxes, switches  
+✅ Tabs and notebooks  
+✅ Lists and trees  
+✅ All GTK 3/4 apps
+
+## 💻 Compatibility
+
+**Works on:**
+- Ubuntu / Pop!_OS / Linux Mint
+- Fedora / Debian / Arch
+- Any GNOME-based distro
+- GTK apps on any desktop environment
+
+**Optimized for:**
+- GNOME Shell
+- GTK 3.24+
+- GTK 4.x
+
+## 🎯 Design Philosophy
+
+**BRUTALISM. MINIMALISM. MAXIMALISM.**
+
+- No rounded corners
+- No shadows
+- No gradients
+- No animations
+- Pure geometric forms
+- Maximum contrast
+- Zero visual distraction
+
+Inspired by Nothing Phone's aesthetic and Swiss design principles.
+
+## 📂 Project Structure
+```
+aethr-gtk-theme/
+├── aethr-dark/          # Dark variant
+│   ├── gtk-3.0/
+│   ├── gtk-4.0/
+│   └── metacity-1/
+├── aethr-light/         # Light variant
+│   ├── gtk-3.0/
+│   ├── gtk-4.0/
+│   └── metacity-1/
+└── install.sh           # Installation script
+```
+
+## 🔧 Manual Installation
 ```bash
 cp -r aethr-dark ~/.themes/
 cp -r aethr-light ~/.themes/
 ```
 
-## Applying the Theme
+Restart your desktop environment or press `Alt+F2` → type `r` → Enter.
 
-**Using GNOME Tweaks:**
-1. Install: `sudo apt install gnome-tweaks`
-2. Open Tweaks
-3. Go to Appearance
-4. Select `aethr-dark` or `aethr-light`
+## 🐛 Known Issues
 
-**Using Command Line:**
-```bash
-# Dark theme
-gsettings set org.gnome.desktop.interface gtk-theme 'aethr-dark'
+- Window buttons need manual configuration in some DEs
+- Some legacy GTK2 apps won't be fully themed
+- Best experience on GNOME 40+
 
-# Light theme
-gsettings set org.gnome.desktop.interface gtk-theme 'aethr-light'
-```
+## 🤝 Contributing
 
-## Features
+Found a bug? Want to improve the theme?
 
-- Pure black and white
-- Sharp edges, no rounded corners
-- High contrast
-- Minimalist design
-- Dark and light variants
+1. Fork it
+2. Create your branch (`git checkout -b feature/improvement`)
+3. Commit changes (`git commit -m 'Add feature'`)
+4. Push (`git push origin feature/improvement`)
+5. Open a Pull Request
 
-## Author
+## 📸 Screenshots
 
-Alexander Wondwossen (@alxgraphy)[github.com/alxgraphy]
+Coming soon - install it and see for yourself.
+
+## 🙏 Credits
+
+**Design & Development:** Alexander Wondwossen ([@alxgraphy](https://github.com/alxgraphy))  
+
+
+## 📜 License
+
+MIT License - use it, modify it, share it.
+
+---
+
+<div align="center">
+
+**Alexander Wondwossen** ([@alxgraphy](https://github.com/alxgraphy))
 
 Made with ❤️ in Toronto, Canada 🇨🇦
+
+**[⭐ Star this repo](https://github.com/alxgraphy/aethr-gtk-theme)** if you like pure black and white aesthetics
+
+</div>
