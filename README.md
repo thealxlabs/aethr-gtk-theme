@@ -11,7 +11,7 @@ A pure black and white GTK theme for Linux.
 
 ## 🚀 Quick Install
 ```bash
-git clone https://github.com/alxgraphy/aethr-gtk-theme.git
+git clone https://github.com/thealxlabs/aethr-gtk-theme.git
 cd aethr-gtk-theme
 ./install.sh
 ```
@@ -118,7 +118,7 @@ Coming soon - install it and see for yourself.
 
 ## 🙏 Credits
 
-**Design & Development:** Alexander Wondwossen ([@alxgraphy](https://github.com/alxgraphy))  
+**Design & Development:** Alexander Wondwossen ([@thealxlabs](https://github.com/thealxlabs))  
 
 
 ## 📜 License
@@ -129,10 +129,10 @@ MIT License - use it, modify it, share it.
 
 <div align="center">
 
-**Alexander Wondwossen** ([@alxgraphy](https://github.com/alxgraphy))
+**Alexander Wondwossen** ([@thealxlabs](https://github.com/thealxlabs))
 
 Made with ❤️ in Toronto, Canada 🇨🇦
 
-**[⭐ Star this repo](https://github.com/alxgraphy/aethr-gtk-theme)** if you like pure black and white aesthetics
+**[⭐ Star this repo](https://github.com/thealxlabs/aethr-gtk-theme)** if you like pure black and white aesthetics
 
 </div>
